@@ -19,6 +19,18 @@
 		37D0E92C18C2B537003AEDA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D0E91418C2B537003AEDA9 /* UIKit.framework */; };
 		37D0E93418C2B537003AEDA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37D0E93218C2B537003AEDA9 /* InfoPlist.strings */; };
 		37D0E93618C2B537003AEDA9 /* MealPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D0E93518C2B537003AEDA9 /* MealPickerTests.m */; };
+		37F87B7318C2BA87001491D1 /* mpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B7218C2BA87001491D1 /* mpViewController.m */; };
+		37F87B7518C2BABF001491D1 /* mp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F87B7418C2BABF001491D1 /* mp.storyboard */; };
+		37F87B7818C2BB0C001491D1 /* mpDineInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B7718C2BB0C001491D1 /* mpDineInViewController.m */; };
+		37F87B7B18C2BB20001491D1 /* mpDineOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B7A18C2BB20001491D1 /* mpDineOutViewController.m */; };
+		37F87B7E18C2BB7A001491D1 /* mpSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B7D18C2BB7A001491D1 /* mpSettingsViewController.m */; };
+		37F87B8118C2BBB5001491D1 /* mpAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B8018C2BBB5001491D1 /* mpAddViewController.m */; };
+		37F87B8418C2BC1D001491D1 /* mpDineInDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B8318C2BC1D001491D1 /* mpDineInDetailsViewController.m */; };
+		37F87B8718C2BC32001491D1 /* mpDineOutDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B8618C2BC32001491D1 /* mpDineOutDetailsViewController.m */; };
+		37F87B8A18C2BCCB001491D1 /* mpMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B8918C2BCCB001491D1 /* mpMapPoint.m */; };
+		37F87B8C18C2C557001491D1 /* IMG_0269 - Version 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37F87B8B18C2C557001491D1 /* IMG_0269 - Version 2.jpg */; };
+		37F87B8F18C2CAEA001491D1 /* mpRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F87B8E18C2CAEA001491D1 /* mpRecipeViewController.m */; };
+		37F87B9118C2DEBA001491D1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F87B9018C2DEBA001491D1 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,27 @@
 		37D0E93118C2B537003AEDA9 /* MealPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MealPickerTests-Info.plist"; sourceTree = "<group>"; };
 		37D0E93318C2B537003AEDA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37D0E93518C2B537003AEDA9 /* MealPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MealPickerTests.m; sourceTree = "<group>"; };
+		37F87B7118C2BA87001491D1 /* mpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpViewController.h; sourceTree = "<group>"; };
+		37F87B7218C2BA87001491D1 /* mpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpViewController.m; sourceTree = "<group>"; };
+		37F87B7418C2BABF001491D1 /* mp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mp.storyboard; sourceTree = "<group>"; };
+		37F87B7618C2BB0C001491D1 /* mpDineInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpDineInViewController.h; sourceTree = "<group>"; };
+		37F87B7718C2BB0C001491D1 /* mpDineInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpDineInViewController.m; sourceTree = "<group>"; };
+		37F87B7918C2BB20001491D1 /* mpDineOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpDineOutViewController.h; sourceTree = "<group>"; };
+		37F87B7A18C2BB20001491D1 /* mpDineOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpDineOutViewController.m; sourceTree = "<group>"; };
+		37F87B7C18C2BB7A001491D1 /* mpSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpSettingsViewController.h; sourceTree = "<group>"; };
+		37F87B7D18C2BB7A001491D1 /* mpSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpSettingsViewController.m; sourceTree = "<group>"; };
+		37F87B7F18C2BBB5001491D1 /* mpAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpAddViewController.h; sourceTree = "<group>"; };
+		37F87B8018C2BBB5001491D1 /* mpAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpAddViewController.m; sourceTree = "<group>"; };
+		37F87B8218C2BC1D001491D1 /* mpDineInDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpDineInDetailsViewController.h; sourceTree = "<group>"; };
+		37F87B8318C2BC1D001491D1 /* mpDineInDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpDineInDetailsViewController.m; sourceTree = "<group>"; };
+		37F87B8518C2BC32001491D1 /* mpDineOutDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpDineOutDetailsViewController.h; sourceTree = "<group>"; };
+		37F87B8618C2BC32001491D1 /* mpDineOutDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpDineOutDetailsViewController.m; sourceTree = "<group>"; };
+		37F87B8818C2BCCB001491D1 /* mpMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpMapPoint.h; sourceTree = "<group>"; };
+		37F87B8918C2BCCB001491D1 /* mpMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpMapPoint.m; sourceTree = "<group>"; };
+		37F87B8B18C2C557001491D1 /* IMG_0269 - Version 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_0269 - Version 2.jpg"; sourceTree = "<group>"; };
+		37F87B8D18C2CAEA001491D1 /* mpRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpRecipeViewController.h; sourceTree = "<group>"; };
+		37F87B8E18C2CAEA001491D1 /* mpRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mpRecipeViewController.m; sourceTree = "<group>"; };
+		37F87B9018C2DEBA001491D1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F87B9118C2DEBA001491D1 /* MapKit.framework in Frameworks */,
 				37D0E91318C2B537003AEDA9 /* CoreGraphics.framework in Frameworks */,
 				37D0E91518C2B537003AEDA9 /* UIKit.framework in Frameworks */,
 				37D0E91118C2B537003AEDA9 /* Foundation.framework in Frameworks */,
@@ -96,6 +130,7 @@
 		37D0E90F18C2B537003AEDA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37F87B9018C2DEBA001491D1 /* MapKit.framework */,
 				37D0E91018C2B537003AEDA9 /* Foundation.framework */,
 				37D0E91218C2B537003AEDA9 /* CoreGraphics.framework */,
 				37D0E91418C2B537003AEDA9 /* UIKit.framework */,
@@ -107,8 +142,27 @@
 		37D0E91618C2B537003AEDA9 /* MealPicker */ = {
 			isa = PBXGroup;
 			children = (
+				37F87B7418C2BABF001491D1 /* mp.storyboard */,
 				37D0E91F18C2B537003AEDA9 /* mpAppDelegate.h */,
 				37D0E92018C2B537003AEDA9 /* mpAppDelegate.m */,
+				37F87B7118C2BA87001491D1 /* mpViewController.h */,
+				37F87B7218C2BA87001491D1 /* mpViewController.m */,
+				37F87B7618C2BB0C001491D1 /* mpDineInViewController.h */,
+				37F87B7718C2BB0C001491D1 /* mpDineInViewController.m */,
+				37F87B7918C2BB20001491D1 /* mpDineOutViewController.h */,
+				37F87B7A18C2BB20001491D1 /* mpDineOutViewController.m */,
+				37F87B8218C2BC1D001491D1 /* mpDineInDetailsViewController.h */,
+				37F87B8318C2BC1D001491D1 /* mpDineInDetailsViewController.m */,
+				37F87B8518C2BC32001491D1 /* mpDineOutDetailsViewController.h */,
+				37F87B8618C2BC32001491D1 /* mpDineOutDetailsViewController.m */,
+				37F87B7C18C2BB7A001491D1 /* mpSettingsViewController.h */,
+				37F87B7D18C2BB7A001491D1 /* mpSettingsViewController.m */,
+				37F87B7F18C2BBB5001491D1 /* mpAddViewController.h */,
+				37F87B8018C2BBB5001491D1 /* mpAddViewController.m */,
+				37F87B8D18C2CAEA001491D1 /* mpRecipeViewController.h */,
+				37F87B8E18C2CAEA001491D1 /* mpRecipeViewController.m */,
+				37F87B8818C2BCCB001491D1 /* mpMapPoint.h */,
+				37F87B8918C2BCCB001491D1 /* mpMapPoint.m */,
 				37D0E92218C2B537003AEDA9 /* Images.xcassets */,
 				37D0E91718C2B537003AEDA9 /* Supporting Files */,
 			);
@@ -118,6 +172,7 @@
 		37D0E91718C2B537003AEDA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37F87B8B18C2C557001491D1 /* IMG_0269 - Version 2.jpg */,
 				37D0E91818C2B537003AEDA9 /* MealPicker-Info.plist */,
 				37D0E91918C2B537003AEDA9 /* InfoPlist.strings */,
 				37D0E91C18C2B537003AEDA9 /* main.m */,
@@ -221,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D0E91B18C2B537003AEDA9 /* InfoPlist.strings in Resources */,
+				37F87B8C18C2C557001491D1 /* IMG_0269 - Version 2.jpg in Resources */,
 				37D0E92318C2B537003AEDA9 /* Images.xcassets in Resources */,
+				37F87B7518C2BABF001491D1 /* mp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +297,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F87B7318C2BA87001491D1 /* mpViewController.m in Sources */,
+				37F87B8F18C2CAEA001491D1 /* mpRecipeViewController.m in Sources */,
 				37D0E91D18C2B537003AEDA9 /* main.m in Sources */,
+				37F87B8718C2BC32001491D1 /* mpDineOutDetailsViewController.m in Sources */,
+				37F87B7B18C2BB20001491D1 /* mpDineOutViewController.m in Sources */,
+				37F87B8418C2BC1D001491D1 /* mpDineInDetailsViewController.m in Sources */,
+				37F87B7818C2BB0C001491D1 /* mpDineInViewController.m in Sources */,
+				37F87B7E18C2BB7A001491D1 /* mpSettingsViewController.m in Sources */,
 				37D0E92118C2B537003AEDA9 /* mpAppDelegate.m in Sources */,
+				37F87B8A18C2BCCB001491D1 /* mpMapPoint.m in Sources */,
+				37F87B8118C2BBB5001491D1 /* mpAddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +508,7 @@
 				37D0E93B18C2B537003AEDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37D0E93C18C2B537003AEDA9 /* Build configuration list for PBXNativeTarget "MealPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +517,7 @@
 				37D0E93E18C2B537003AEDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
