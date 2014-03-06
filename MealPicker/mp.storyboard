@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller - MealPicker-->
+        <!--Mp View Controller - MealPicker-->
         <scene sceneID="sY1-2B-v24">
             <objects>
-                <viewController title="MealPicker" id="vXb-wz-s9q" sceneMemberID="viewController">
+                <viewController title="MealPicker" id="vXb-wz-s9q" customClass="mpViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OpY-IL-o1h"/>
                         <viewControllerLayoutGuide type="bottom" id="Xdo-Fn-TIb"/>
@@ -60,6 +60,17 @@
                                     <segue destination="aoD-3h-AJf" kind="push" id="yPb-ru-z2h"/>
                                 </connections>
                             </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CFl-6K-nPr">
+                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Settings" id="gcu-qM-BYN">
+                                        <connections>
+                                            <segue destination="aoD-3h-AJf" kind="push" id="Hyt-3W-unI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -69,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="-792" y="-493"/>
         </scene>
-        <!--View Controller - Add-->
+        <!--Mp Add View Controller - Add-->
         <scene sceneID="sIz-c0-pab">
             <objects>
-                <viewController title="Add" id="rrq-0C-AOa" sceneMemberID="viewController">
+                <viewController title="Add" id="rrq-0C-AOa" customClass="mpAddViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JeP-eS-iG7"/>
                         <viewControllerLayoutGuide type="bottom" id="oB7-F3-Yxy"/>
@@ -119,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="616" y="-493"/>
         </scene>
-        <!--View Controller - DineIn-->
+        <!--Mp Dine In View Controller - DineIn-->
         <scene sceneID="jXy-mV-aa1">
             <objects>
-                <viewController title="DineIn" id="yQH-IT-GH1" sceneMemberID="viewController">
+                <viewController title="DineIn" id="yQH-IT-GH1" customClass="mpDineInViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ben-XD-NSA"/>
                         <viewControllerLayoutGuide type="bottom" id="8xv-mg-xAq"/>
@@ -181,10 +192,10 @@
             </objects>
             <point key="canvasLocation" x="-313" y="-1160"/>
         </scene>
-        <!--View Controller - Recipe-->
+        <!--Mp Recipe View Controller - Recipe-->
         <scene sceneID="jTq-cf-ylo">
             <objects>
-                <viewController title="Recipe" id="CsT-bu-CZ0" sceneMemberID="viewController">
+                <viewController title="Recipe" id="CsT-bu-CZ0" customClass="mpRecipeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YhY-rc-3Z5"/>
                         <viewControllerLayoutGuide type="bottom" id="zJZ-cK-lgk"/>
@@ -207,10 +218,10 @@
             </objects>
             <point key="canvasLocation" x="158" y="-1160"/>
         </scene>
-        <!--Table View Controller - Settings-->
+        <!--Mp Settings View Controller - Settings-->
         <scene sceneID="h2F-Qs-Mwe">
             <objects>
-                <tableViewController title="Settings" id="aoD-3h-AJf" sceneMemberID="viewController">
+                <tableViewController title="Settings" id="aoD-3h-AJf" customClass="mpSettingsViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4kc-7H-AlC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -248,10 +259,10 @@
             </objects>
             <point key="canvasLocation" x="165" y="-493"/>
         </scene>
-        <!--View Controller - DineOut-->
+        <!--Mp Dine Out View Controller - DineOut-->
         <scene sceneID="UHO-ma-h9Z">
             <objects>
-                <viewController title="DineOut" id="KbS-Hh-RzV" sceneMemberID="viewController">
+                <viewController title="DineOut" id="KbS-Hh-RzV" customClass="mpDineOutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Lww-Vm-fnD"/>
                         <viewControllerLayoutGuide type="bottom" id="ZB8-X2-Gbz"/>
@@ -295,7 +306,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="aoD-3h-AJf" kind="push" id="Ol8-of-D3K"/>
+                                    <segue destination="aoD-3h-AJf" kind="push" id="eDP-qe-PHQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -313,6 +324,9 @@
                 <navigationController title="Start" definesPresentationContext="YES" id="9Kp-mq-5QT" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dG6-Oi-Uvt">
                         <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <outlet property="delegate" destination="9Kp-mq-5QT" id="wpv-EM-bNO"/>
+                        </connections>
                     </navigationBar>
                     <connections>
                         <segue destination="vXb-wz-s9q" kind="relationship" relationship="rootViewController" id="Tdp-gS-Pen"/>
@@ -332,6 +346,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Ol8-of-D3K"/>
+        <segue reference="eDP-qe-PHQ"/>
     </inferredMetricsTieBreakers>
 </document>

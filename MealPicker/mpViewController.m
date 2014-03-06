@@ -14,12 +14,6 @@
 
 @implementation mpViewController
 
-// Not sure what this does...  research
-//- (void)awakeFromNib
-//{
-//    [super awakeFromNib];
-//}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -31,6 +25,7 @@
     //    UIImage *stretchableImage = [originalImage resizableImageWithCapInsets:insets];
     //    [UIButton setBackgroundImage:stretchableImage forState:UIControlStateNormal];
     // the image will be stretched to fill the button, if you resize it.
+    
 }
 
 - (void)didReceiveMemoryWarning

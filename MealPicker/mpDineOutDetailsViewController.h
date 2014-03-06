@@ -10,8 +10,4 @@
 
 @interface mpDineOutDetailsViewController : UIViewController
 
-@property (strong, nonatomic) id dineOutDetailsItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *dineOutDetailsDescriptionLabel;
-
 @end

@@ -10,8 +10,4 @@
 
 @interface mpViewController : UIViewController
 
-@property (strong, nonatomic) id mpItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *mpDescriptionLabel;
-
 @end

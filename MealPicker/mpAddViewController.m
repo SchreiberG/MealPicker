@@ -43,6 +43,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
+    UIBarButtonItem *cameraItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:nil];
+    
+    NSArray *actionButtonItems = @[shareItem, cameraItem];
+    self.navigationItem.rightBarButtonItems = actionButtonItems;
+    
+
+    [self configureView];
 }
 
 - (void)didReceiveMemoryWarning

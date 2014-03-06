@@ -24,14 +24,16 @@
 //    self = [super initWithStyle:style];
 //    if (self) {
 //        // Custom initialization
+//        
+//        self.navigationItem.rightBarButtonItem = self.editButtonItem;
 //    }
 //    return self;
 //}
 
-//- (void)awakeFromNib
-//{
-//    [super awakeFromNib];
-//}
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+}
 
 - (void)viewDidLoad
 {
@@ -43,8 +45,8 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    UIBarButtonItem *editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(insertNewObject:)];
+    self.navigationItem.rightBarButtonItem = editButton;
 }
 
 - (void)didReceiveMemoryWarning
